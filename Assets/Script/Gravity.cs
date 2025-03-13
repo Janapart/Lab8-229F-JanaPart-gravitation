@@ -10,6 +10,8 @@ public class Gravity : MonoBehaviour
     public static List<Gravity> gravityObjectList;
 
 
+    [SerializeField] bool planets = false;
+    [SerializeField] int orbitSpeed = 1000;
 
     private void Awake()
     {
@@ -25,6 +27,9 @@ public class Gravity : MonoBehaviour
 
         gravityObjectList.Add(this);
 
+        if ( !planets )
+        { rb.AddForce(Vector3.left * orbitSpeed); }
+
     }
 
     private void FixedUpdate()
@@ -32,6 +37,7 @@ public class Gravity : MonoBehaviour
        foreach (var obj in gravityObjectList) 
        {
         
+            if (obj != this)
             Attract(obj);
         
        }

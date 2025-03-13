@@ -230,6 +230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 100
 --- !u!1001 &459229979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -355,6 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &646196317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -389,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.1121
+      value: 10.92
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalRotation.w
@@ -474,6 +478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &668783342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -548,9 +554,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1733945558841920, guid: 300f80108a63f48618cb4a1c8b8c1e86, type: 3}
       insertIndex: -1
       addedObject: {fileID: 668783346}
-    - targetCorrespondingSourceObject: {fileID: 1733945558841920, guid: 300f80108a63f48618cb4a1c8b8c1e86, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 668783345}
   m_SourcePrefab: {fileID: 100100000, guid: 300f80108a63f48618cb4a1c8b8c1e86, type: 3}
 --- !u!1 &668783343 stripped
 GameObject:
@@ -584,18 +587,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &668783345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668783343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &668783346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,6 +599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 1
+  orbitSpeed: 1000
 --- !u!1 &713710488
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +812,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -836,6 +829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &879760710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -943,6 +938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &1069538855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1070,6 +1067,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1 &1254334725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &1914607423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1430,6 +1431,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &1971305225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1537,6 +1540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1001 &2073285294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1627,7 +1632,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1644,6 +1649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0309206fdb16f45b7acd4a507c577f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbitSpeed: 1000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
